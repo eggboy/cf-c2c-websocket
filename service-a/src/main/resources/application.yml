@@ -1,0 +1,17 @@
+spring:
+  application:
+    name: serviceA
+
+security:
+  basic:
+    enabled: false
+eureka:
+  instance:
+    prefer-ip-address: true
+
+logging:
+  level:
+    io:
+      pivotal:
+        sample: debug
+
