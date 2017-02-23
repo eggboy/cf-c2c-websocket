@@ -28,7 +28,7 @@ import java.util.concurrent.ExecutionException;
 @Configuration
 public class WebSocketConfiguration {
 
-    private static String webSocketUrl = "ws://%s:80/channel";
+    private static String webSocketUrl = "ws://%s:8080/channel";
     private static Logger logger = LoggerFactory.getLogger(WebSocketConfiguration.class);
 
     @Autowired
